@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* トップページ */
+.button1 {
+  background-color: #fff;
+  border: dashed 2px #c71585;
+  color: #c71585;
+  border-radius: 10px;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 10vh;
+  padding: 1.5vw;
+  cursor: pointer;
+}
+
+.button1:hover {
+  color: #c71585;
+  background-color: #fff0f5;
+}
+
+/* メインページ */
+body {
+  font-size: 1.5em;
+  height: 200px;
+  width: 90%;
+  background-image: linear-gradient(90deg, rgba(65, 164, 253, 1), rgba(255, 255, 255, 0) 31%, rgba(121, 191, 238, 1) 98%);
+}
+.top{
+  color:#c71585;
+  margin:0;
+}
+.list{
+  list-style-type: none;
+}
+.list_i{
+  list-style-type: circle;
+}
+.search-box_label {
+  font-weight: bold;
+}
+.is-hide {
+  display: none;
+}

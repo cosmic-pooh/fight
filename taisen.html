@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2025対戦結果</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <p class="top">2025年1月～対戦結果です。</p>
+  <p class="top">ＴＭはトータルの得点を記載しています。</p>
+  <ul class="list_i">
+    <li>FAN：FANリーグ</li>
+    <li>CS：チャンピョンシップ</li>
+  </ul>
+  <form>
+    <div class="search-box">
+      <span class="search-box_label">カテゴリー:</span>
+      <input type="radio" name="kind" value="">ALL
+      <input type="radio" name="kind" value="公式戦">公式戦
+      <input type="radio" name="kind" value="ＴＭ">ＴＭ
+    </div>
+
+    <div class="search-box">
+      <span class="search-box_label">チーム:</span>
+      <input type="checkbox" name="color" value="修道">修道
+      <input type="checkbox" name="color" value="宇品">宇品
+      <input type="checkbox" name="color" value="瀬野川東">瀬野川東
+      <input type="checkbox" name="color" value="野坂">野坂
+      <input type="checkbox" name="color" value="なぎさ">なぎさ
+      <input type="checkbox" name="color" value="国泰寺">国泰寺
+      <input type="checkbox" name="color" value="二葉">二葉
+      <input type="checkbox" name="color" value="段原">段原
+      <input type="checkbox" name="color" value="祇園東">祇園東
+      <input type="checkbox" name="color" value="戸坂">戸坂
+      <input type="checkbox" name="color" value="備北合同">備北合同
+      <input type="checkbox" name="color" value="本郷">本郷
+      <input type="checkbox" name="color" value="府中">府中
+      <input type="checkbox" name="color" value="牛田">牛田
+      <input type="checkbox" name="color" value="海田・海田西">海田・海田西
+      <input type="checkbox" name="color" value="仁保SC">仁保SC
+      <input type="checkbox" name="color" value="伴">伴
+    </div>
+  </form>
+  <ul class="list">
+    <li class="list_item" data-kind="ＴＭ" data-color="修道">●２－６  修道 2025.1.11</li>
+    <li class="list_item" data-kind="ＴＭ" data-color="宇品">〇７－４  宇品 2025.1.13</li>
+    <li class="list_item" data-kind="公式戦" data-color="瀬野川東">〇２－１  瀬野川東 2025.1.18 県大会１回戦</li>
+    <li class="list_item" data-kind="公式戦" data-color="野坂">●１－３  野坂 2025.1.18 県大会２回戦</li>
+    <li class="list_item" data-kind="公式戦" data-color="なぎさ">●４－５  なぎさ 2025.2.1 FAN</li>
+    <li class="list_item" data-kind="公式戦" data-color="国泰寺">〇３－０  国泰寺 2025.2.8 FAN</li>
+    <li class="list_item" data-kind="公式戦" data-color="二葉">〇４－２  二葉 2025.2.22 FAN</li>
+    <li class="list_item" data-kind="公式戦" data-color="段原">〇３－２  段原 2025.3.2 FAN</li>
+    <li class="list_item" data-kind="公式戦" data-color="祇園東">〇１１－０  祇園東 2025.3.15 FAN</li>
+    <li class="list_item" data-kind="公式戦" data-color="戸坂">△１－１  戸坂 2025.3.22 CS（リーグ戦）</li>
+    <li class="list_item" data-kind="公式戦" data-color="備北合同">〇１７－０  戸坂 2025.3.22 CS（リーグ戦）</li>
+    <li class="list_item" data-kind="公式戦" data-color="本郷">〇２－１  本郷 2025.3.23 CS（トーナメント）</li>
+    <li class="list_item" data-kind="公式戦" data-color="府中">●０－４  府中 2025.3.23 CS（トーナメント決勝）</li>
+    <li class="list_item" data-kind="ＴＭ" data-color="修道">〇１１－７  修道 2025.3.28</li>
+    <li class="list_item" data-kind="公式戦" data-color="牛田">●４－５  牛田 2025.3.29 FAN</li>
+    <li class="list_item" data-kind="ＴＭ" data-color="野坂">〇７－４  野坂 2025.5.4</li>
+    <li class="list_item" data-kind="ＴＭ" data-color="宇品">〇９－６  宇品 2025.5.10</li>
+    <li class="list_item" data-kind="公式戦" data-color="海田・海田西">〇３－１  海田・海田西 2025.5.18 郡市（準決勝・延長）</li>
+    <li class="list_item" data-kind="公式戦" data-color="府中">●０－１  府中 2025.5.18 郡市（決勝・延長）</li>
+    <li class="list_item" data-kind="公式戦" data-color="仁保SC">〇８－０  仁保SC 2025.5.25 FAN</li>
+    <li class="list_item" data-kind="ＴＭ" data-color="伴">△１－１  伴 2025.5.25</li>
+    <li class="list_item" data-kind="ＴＭ" data-color="野坂">〇７－２  野坂 2025.5.31</li>
+    <li class="list_item" data-kind="ＴＭ" data-color="海田・海田西">〇６－４  海田・海田西 2025.6.7</li>
+  </ul>
+  <script src="scipt.js"></script>
+</body>
+
+</html>
